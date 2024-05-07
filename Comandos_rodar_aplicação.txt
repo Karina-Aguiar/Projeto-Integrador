@@ -1,0 +1,27 @@
+==== Aplicação Doação adaptado do vídeo abaixo ==== 
+
+https://www.youtube.com/watch?v=pNlHlhWDpV0&t=1s
+
+Com base no vídeo acima foi feito as adaptações para nosso projeto
+
+#Arquvio CSS para alteração de cores padrão
+Projeto Doacao Material Escolar\templates\static\general\css
+
+
+=======Comando no terminal para rodar a aplicação na web=======
+
+- Instalar Python
+- Instalar Django
+
+#Entrar na pasta que tem o arquivo manage.py
+#Comando: 
+cd nomedapasta
+
+#Rodar o servidor no local host
+#Comando: 
+python .\manage.py runserver
+
+#Após rodar comando aparecerá mensagem com endereço 127.0.0.1:8080
+Ao clicar abrirá o navegador
+inserir o seguinte endereço http://127.0.0.1:8000/doador/ 
+essa é a primeira página criada
