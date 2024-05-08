@@ -70,6 +70,26 @@ DATABASES = {
     }
 }
 
+# Conexao com MySQL - necessita: pip install mysqlclient
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'mysql-doacao',
+#         'USER': 'root',
+#         'PASSWORD': 'pwd',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306'
+#     }
+# }
+
+'''  docker para criar mysql local
+docker run \
+    -p 3306:3306 \
+    --name mysql-doacao \
+    -e MYSQL_ROOT_PASSWORD=pwd \
+    -d mysql:8.0
+'''
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
