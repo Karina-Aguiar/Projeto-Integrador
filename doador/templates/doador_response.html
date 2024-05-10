@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block 'head' %}
+    <link rel="stylesheet" href="{% static 'doador/css/doador.css' %}">
+{% endblock %}
+
+{% block 'dashboard' %}
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md card-dashboard">
+                <p class="text-card">Sucesso</p>
+            </div>
+
+        </div>
+
+       
+        <div class="adicionar-cliente">
+           <br><br>
+           <h2>Obrigado, doação cadastrada com sucesso!</h2>
+            
+        </div>
+    </div>
+    <script src="{% static 'doador/js/doador.js' %}"></script>
+{% endblock %}
+

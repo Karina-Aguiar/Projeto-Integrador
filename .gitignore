@@ -1,0 +1,6 @@
+# Ignore os arquivos de sistema do Windows
+Thumbs.db
+Desktop.ini
+
+# ignorando arquivos cache Python
+*.pyc

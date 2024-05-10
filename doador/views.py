@@ -1,6 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Doador,Material
+from django.shortcuts import redirect
+
+
+def index(request):
+    return render(request, 'home/index.html')
+
 
 def doador(request):
 
@@ -30,4 +36,7 @@ def doador(request):
             material = Material(tipo_material=tipo_material,unidade_material=unidade_material,quantidade=quantidade,doador=doador)
             material.save()
         
-        return HttpResponse('INSERIDO OK!')
+        return redirect(doadorResponse)
+    
+def doadorResponse(request):
+    return render(request, 'doador_response.html')
