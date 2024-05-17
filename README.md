@@ -11,12 +11,12 @@ Acreditamos que, ao promover a solidariedade e a sustentabilidade ambiental, pod
 
 ## Alunos/integrantes do projeto:
 
-Daniel Cavallini
-Edson Mokiu Yabiku
-Eloy Winther Junior
-Karina Ferreira de Aguiar Miranda
-Luana Maria Garcia de Lima
-Ricardo Edval da Fonseca
+Daniel Cavallini;
+Edson Mokiu Yabiku;
+Eloy Winther Junior;
+Karina Ferreira de Aguiar Miranda;
+Luana Maria Garcia de Lima;
+Ricardo Edval da Fonseca;
 
 ## Tecnologias Utilizadas
 
