@@ -22,10 +22,10 @@ Ricardo Edval da Fonseca;
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- Python
+- Python 
 - Django
 - Git
-
+- MySQL
 
 ## Licença
 
